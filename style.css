@@ -1,0 +1,52 @@
+body {
+  font-size: 24px;
+  color: #f40404;
+  line-height: 1.5;
+  background-image: url(https://cdn.britannica.com/18/194818-050-E7A7A993/view-Kiev-Ukraine.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 80%;
+  margin: 0 auto;
+}
+
+img {
+  width: 25%;
+  margin-right: 10px;
+}
+
+.content {
+  display: flex;
+  margin-top: 20px;
+}
+.captions {
+  display: flex;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+}
+
+li {
+  display: inline-block;
+  margin-right: 50px;
+}
+
+p {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: blueviolet;
+  background-color: #0ee380;
+}
+
+.header {
+  position: sticky;
+  height: 10%;
+  background-color: #0ee380;
+}
