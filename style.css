@@ -5,6 +5,7 @@ body {
   background-image: url(https://cdn.britannica.com/18/194818-050-E7A7A993/view-Kiev-Ukraine.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   width: 80%;
   margin: 0 auto;
 }
